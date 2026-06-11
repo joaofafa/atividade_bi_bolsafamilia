@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "Atividade BI"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "0d0d3a3a-7157-4179-bb59-5b1fb06facb6"
+  }
+}

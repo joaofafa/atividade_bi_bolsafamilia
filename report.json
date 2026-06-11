@@ -1,0 +1,154 @@
+{
+  "config": "{\"version\":\"5.57\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY24SU08\",\"version\":\"5.57\",\"type\":2}},\"activeSectionIndex\":0,\"defaultDrillFilterOtherVisuals\":true,\"linguisticSchemaSyncVersion\":2,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true,\"useEnhancedTooltips\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}],\"outspacePane\":[{\"properties\":{\"expanded\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}",
+  "layoutOptimization": 0,
+  "publicCustomVisuals": [],
+  "resourcePackages": [
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "CY24SU08",
+            "path": "BaseThemes/CY24SU08.json",
+            "type": 202
+          }
+        ],
+        "name": "SharedResources",
+        "type": 2
+      }
+    }
+  ],
+  "sections": [
+    {
+      "config": "{\"objects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}}}}],\"outspace\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":0.6}}}}}}}]}}",
+      "displayName": "Visão Geral Nacional",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "f825e1c1b38c0d1d0d49",
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"03277c326910c00deb09\",\"layouts\":[{\"id\":0,\"position\":{\"x\":316.1194029850746,\"y\":10.746268656716417,\"z\":6001,\"width\":583.8805970149253,\"height\":74.32835820895522,\"tabOrder\":6001}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Visão Geral Nacional\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontFamily\":\"Arial\",\"fontSize\":\"40pt\"}}],\"horizontalTextAlignment\":\"center\"}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":0.6}}}}}}}],\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 74.33,
+          "width": 583.88,
+          "x": 316.12,
+          "y": 10.75,
+          "z": 6001.00
+        },
+        {
+          "config": "{\"name\":\"2899bbbd0d379ba93982\",\"layouts\":[{\"id\":0,\"position\":{\"x\":632.2388059701492,\"y\":507.76119402985074,\"z\":6000,\"width\":598.2089552238806,\"height\":192.53731343283582,\"tabOrder\":6000}}],\"singleVisual\":{\"visualType\":\"advancedSlicerVisual\",\"projections\":{\"Values\":[{\"queryRef\":\"amostra_bolsa.MES\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"fato_bolsa_familia\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"MES\"},\"Name\":\"amostra_bolsa.MES\",\"NativeReferenceName\":\"MES\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"value\":[{\"properties\":{\"horizontalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}}},\"selector\":{\"id\":\"default\"}},{\"properties\":{\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":-0.5}}}}}},\"selector\":{\"data\":[{\"dataViewWildcard\":{\"matchingOption\":1}}],\"id\":\"default\"}}],\"shapeCustomRectangle\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'rectangleRoundedByPixel'\"}}},\"rectangleRoundedCurve\":{\"expr\":{\"Literal\":{\"Value\":\"25L\"}}},\"rectangleRoundedCurveCustomStyle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}},\"selector\":{\"id\":\"default\"}}],\"general\":[{\"properties\":{}}],\"image\":[{\"properties\":{\"position\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}},\"selector\":{\"id\":\"default\"}}],\"layout\":[{\"properties\":{\"customizePadding\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"outline\":[{\"properties\":{\"lineColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}}},\"selector\":{\"data\":[{\"dataViewWildcard\":{\"matchingOption\":1}}],\"id\":\"default\"}}],\"fillCustom\":[{\"properties\":{\"fillColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}},\"selector\":{\"data\":[{\"dataViewWildcard\":{\"matchingOption\":1}}],\"id\":\"default\"}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}},\"background\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}}}],\"subTitle\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}}}}],\"visualHeader\":[{\"properties\":{\"background\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"border\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}}}}],\"divider\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 192.54,
+          "width": 598.21,
+          "x": 632.24,
+          "y": 507.76,
+          "z": 6000.00
+        },
+        {
+          "config": "{\"name\":\"2e985996c322a4c0054d\",\"layouts\":[{\"id\":0,\"position\":{\"x\":632.2388059701492,\"y\":108.35820895522387,\"z\":2000,\"width\":284.77611940298505,\"height\":180,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"amostra_bolsa.Ticket Medio\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"fato_bolsa_familia\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Ticket Medio\"},\"Name\":\"amostra_bolsa.Ticket Medio\",\"NativeReferenceName\":\"Ticket Medio\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Ticket Medio\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"categoryLabels\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"20D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 180.00,
+          "width": 284.78,
+          "x": 632.24,
+          "y": 108.36,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"8592e8de11b72c4a79e0\",\"layouts\":[{\"id\":0,\"position\":{\"x\":632.2388059701492,\"y\":306.2686567164179,\"z\":5000,\"width\":598.2089552238806,\"height\":184.47761194029852,\"tabOrder\":5000}}],\"singleVisual\":{\"visualType\":\"advancedSlicerVisual\",\"projections\":{\"Values\":[{\"queryRef\":\"amostra_bolsa.ANO\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"fato_bolsa_familia\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"ANO\"},\"Name\":\"amostra_bolsa.ANO\",\"NativeReferenceName\":\"ANO\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{}}],\"shapeCustomRectangle\":[{\"properties\":{\"tileShape\":{\"expr\":{\"Literal\":{\"Value\":\"'rectangleRoundedByPixel'\"}}},\"rectangleRoundedCurveCustomStyle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}},\"selector\":{\"id\":\"default\"}}],\"layout\":[{\"properties\":{\"orientation\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}},\"style\":{\"expr\":{\"Literal\":{\"Value\":\"'Cards'\"}}},\"cellPadding\":{\"expr\":{\"Literal\":{\"Value\":\"10L\"}}},\"customizePadding\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"overFlow\":[{\"properties\":{\"overFlowDirection\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}],\"image\":[{\"properties\":{\"position\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}},\"selector\":{\"id\":\"default\"}}],\"value\":[{\"properties\":{\"horizontalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}}},\"selector\":{\"id\":\"default\"}}],\"outline\":[{\"properties\":{\"lineColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}}},\"selector\":{\"data\":[{\"dataViewWildcard\":{\"matchingOption\":1}}],\"id\":\"default\"}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 184.48,
+          "width": 598.21,
+          "x": 632.24,
+          "y": 306.27,
+          "z": 5000.00
+        },
+        {
+          "config": "{\"name\":\"91852e7ed4915308050b\",\"layouts\":[{\"id\":0,\"position\":{\"x\":945.6716417910447,\"y\":108.35820895522387,\"z\":3000,\"width\":284.77611940298505,\"height\":180,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"amostra_bolsa.Municipios Atendidos\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"fato_bolsa_familia\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Municipios Atendidos\"},\"Name\":\"amostra_bolsa.Municipios Atendidos\",\"NativeReferenceName\":\"Municipios Atendidos\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Municipios Atendidos\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"categoryLabels\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"20D\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 180.00,
+          "width": 284.78,
+          "x": 945.67,
+          "y": 108.36,
+          "z": 3000.00
+        },
+        {
+          "config": "{\"name\":\"921f7b044b033a978e04\",\"layouts\":[{\"id\":0,\"position\":{\"x\":323.2835820895522,\"y\":108.35820895522387,\"z\":1000,\"width\":284.77611940298505,\"height\":180,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"amostra_bolsa.Total Beneficiarios\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"fato_bolsa_familia\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Total Beneficiarios\"},\"Name\":\"amostra_bolsa.Total Beneficiarios\",\"NativeReferenceName\":\"Total Beneficiarios\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Total Beneficiarios\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"categoryLabels\":[{\"properties\":{\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"20D\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 180.00,
+          "width": 284.78,
+          "x": 323.28,
+          "y": 108.36,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"9c6d1da995bc74408bbe\",\"layouts\":[{\"id\":0,\"position\":{\"x\":9.850746268656716,\"y\":306.2686567164179,\"z\":4000,\"width\":598.2089552238806,\"height\":402.98507462686564,\"tabOrder\":4000}}],\"singleVisual\":{\"visualType\":\"barChart\",\"projections\":{\"Category\":[{\"queryRef\":\"dim_regioes.Regiao\",\"active\":true}],\"Y\":[{\"queryRef\":\"amostra_bolsa.Total Repasses\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"dim_regioes\",\"Type\":0},{\"Name\":\"a\",\"Entity\":\"fato_bolsa_familia\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Regiao\"},\"Name\":\"dim_regioes.Regiao\",\"NativeReferenceName\":\"Regiao\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Total Repasses\"},\"Name\":\"amostra_bolsa.Total Repasses\",\"NativeReferenceName\":\"Total Repasses\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Total Repasses\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 402.99,
+          "width": 598.21,
+          "x": 9.85,
+          "y": 306.27,
+          "z": 4000.00
+        },
+        {
+          "config": "{\"name\":\"af4b138439511c150b7a\",\"layouts\":[{\"id\":0,\"position\":{\"x\":9.850746268656716,\"y\":108.35820895522387,\"z\":0,\"width\":284.77611940298505,\"height\":180,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"amostra_bolsa.Total Repasses\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"fato_bolsa_familia\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Total Repasses\"},\"Name\":\"amostra_bolsa.Total Repasses\",\"NativeReferenceName\":\"Total Repasses\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Total Repasses\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"categoryLabels\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"20D\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 180.00,
+          "width": 284.78,
+          "x": 9.85,
+          "y": 108.36,
+          "z": 0.00
+        }
+      ],
+      "width": 1280.00
+    },
+    {
+      "config": "{\"objects\":{\"outspace\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":0.6}}}}}}}]}}",
+      "displayName": "Detalhe Regional",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "fe2605ee3239e15881d7",
+      "ordinal": 1,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"1c7a39c19a7c15a1063a\",\"layouts\":[{\"id\":0,\"position\":{\"x\":18.80597014925373,\"y\":162.08955223880596,\"z\":1000,\"width\":677.9104477611941,\"height\":548.0597014925373,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"barChart\",\"projections\":{\"Category\":[{\"queryRef\":\"amostra_bolsa.NOME MUNICÍPIO\",\"active\":true}],\"Y\":[{\"queryRef\":\"amostra_bolsa.Total Repasses\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"fato_bolsa_familia\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"NOME MUNICÍPIO\"},\"Name\":\"amostra_bolsa.NOME MUNICÍPIO\",\"NativeReferenceName\":\"NOME MUNICÍPIO\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Total Repasses\"},\"Name\":\"amostra_bolsa.Total Repasses\",\"NativeReferenceName\":\"Total Repasses\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Total Repasses\"}}}]},\"drillFilterOtherVisuals\":true,\"filterSortOrder\":3,\"hasDefaultSort\":true}}",
+          "filters": "[{\"name\":\"be9324d1a9b16c5eec08\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"fato_bolsa_familia\"}},\"Property\":\"NOME MUNICÍPIO\"}},\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"subquery\",\"Expression\":{\"Subquery\":{\"Query\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"fato_bolsa_familia\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"NOME MUNICÍPIO\"},\"Name\":\"field\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Total Repasses\"}}}],\"Top\":10}}},\"Type\":2},{\"Name\":\"a\",\"Entity\":\"fato_bolsa_familia\",\"Type\":0}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"NOME MUNICÍPIO\"}}],\"Table\":{\"SourceRef\":{\"Source\":\"subquery\"}}}}}]},\"type\":\"TopN\",\"howCreated\":0,\"isHiddenInViewMode\":false,\"ordinal\":0},{\"name\":\"a5b2f6d0067ce7adb130\",\"expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"fato_bolsa_familia\"}},\"Property\":\"Total Repasses\"}},\"type\":\"Advanced\",\"howCreated\":0,\"isHiddenInViewMode\":false,\"ordinal\":1}]",
+          "height": 548.06,
+          "width": 677.91,
+          "x": 18.81,
+          "y": 162.09,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"452fb44dcab9aaa6a36d\",\"layouts\":[{\"id\":0,\"position\":{\"x\":116.41791044776119,\"y\":41.19402985074627,\"z\":2001,\"width\":482.6865671641791,\"height\":89.55223880597015,\"tabOrder\":2001}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Detalhe Regional\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontSize\":\"40pt\"}}],\"horizontalTextAlignment\":\"center\"}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":0.6}}}}}}}]}}}",
+          "filters": "[]",
+          "height": 89.55,
+          "width": 482.69,
+          "x": 116.42,
+          "y": 41.19,
+          "z": 2001.00
+        },
+        {
+          "config": "{\"name\":\"88d4ab1de706c352ee02\",\"layouts\":[{\"id\":0,\"position\":{\"x\":722.6865671641791,\"y\":395.82089552238807,\"z\":2000,\"width\":534.6268656716418,\"height\":314.3283582089552,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"advancedSlicerVisual\",\"projections\":{\"Values\":[{\"queryRef\":\"dim_regioes.Regiao\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"dim_regioes\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Regiao\"},\"Name\":\"dim_regioes.Regiao\",\"NativeReferenceName\":\"Regiao\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{}}]}}}",
+          "filters": "[]",
+          "height": 314.33,
+          "width": 534.63,
+          "x": 722.69,
+          "y": 395.82,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"f7f2fb72440581374596\",\"layouts\":[{\"id\":0,\"position\":{\"x\":722.6865671641791,\"y\":21.492537313432834,\"z\":0,\"width\":534.6268656716418,\"height\":361.7910447761194,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"pivotTable\",\"projections\":{\"Rows\":[{\"queryRef\":\"dim_regioes.UF\",\"active\":true}],\"Values\":[{\"queryRef\":\"amostra_bolsa.Municipios Atendidos\"},{\"queryRef\":\"amostra_bolsa.Total Beneficiarios\"},{\"queryRef\":\"amostra_bolsa.Ticket Medio\"},{\"queryRef\":\"amostra_bolsa.Total Repasses\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"dim_regioes\",\"Type\":0},{\"Name\":\"a\",\"Entity\":\"fato_bolsa_familia\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"UF\"},\"Name\":\"dim_regioes.UF\",\"NativeReferenceName\":\"UF\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Municipios Atendidos\"},\"Name\":\"amostra_bolsa.Municipios Atendidos\",\"NativeReferenceName\":\"Municipios Atendidos\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Ticket Medio\"},\"Name\":\"amostra_bolsa.Ticket Medio\",\"NativeReferenceName\":\"Ticket Medio\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Total Repasses\"},\"Name\":\"amostra_bolsa.Total Repasses\",\"NativeReferenceName\":\"Total Repasses\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Total Beneficiarios\"},\"Name\":\"amostra_bolsa.Total Beneficiarios\",\"NativeReferenceName\":\"Total Beneficiarios\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Ticket Medio\"}}}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 361.79,
+          "width": 534.63,
+          "x": 722.69,
+          "y": 21.49,
+          "z": 0.00
+        }
+      ],
+      "width": 1280.00
+    }
+  ]
+}
