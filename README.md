@@ -128,5 +128,6 @@ O acesso é definido automaticamente de acordo com o usuário autenticado no Pow
 
 João Marcelo Campos Fafá
 
-Curso de Ciência de Dados
+## Curso 
+Ciência de Dados e Marchine Learning
 3º Semestre
