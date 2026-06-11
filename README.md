@@ -135,13 +135,18 @@ Ciência de Dados e Marchine Learning
 
 ## Evidências do Projeto
 
+
 ### Visão Geral Nacional
 
 ![Visão Geral Nacional](visao-geral-nacional.png)
 
+---
+
 ### Detalhe Regional
 
 ![Detalhe Regional](detalhe-regional.png)
+
+---
 
 ### Modelo de Dados
 
